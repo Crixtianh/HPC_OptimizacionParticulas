@@ -1,0 +1,5 @@
+requests
+flask
+pyyaml
+schedule
+psutil

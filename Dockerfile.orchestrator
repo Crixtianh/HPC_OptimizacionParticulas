@@ -1,0 +1,28 @@
+# Dockerfile para el orquestador
+FROM python:3.10-slim
+
+# Instalar dependencias del sistema
+RUN apt-get update && apt-get install -y \
+    curl \
+    ping \
+    && rm -rf /var/lib/apt/lists/*
+
+# Crear directorio de trabajo
+WORKDIR /app
+
+# Copiar archivos de requisitos
+COPY requirements_orchestrator.txt .
+RUN pip install --no-cache-dir -r requirements_orchestrator.txt
+
+# Copiar código del orquestador
+COPY orchestrator.py .
+COPY configs/ ./configs/
+
+# Crear directorios para logs y resultados
+RUN mkdir -p /app/logs /app/results
+
+# Exponer puerto del orquestador
+EXPOSE 5000
+
+# Comando por defecto
+CMD ["python", "orchestrator.py"]

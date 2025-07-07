@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  # Orquestador principal
+  orchestrator:
+    build:
+      context: .
+      dockerfile: Dockerfile.orchestrator
+    container_name: orchestrator
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+      - ./results:/app/results
+      - ./configs:/app/configs
+    depends_on:
+      - worker1
+      - worker2
+      - worker3
+    networks:
+      - simulation_network
+    command: python orchestrator.py
+
+  # Máquina de trabajo 1
+  worker1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simulation_worker1
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./worker_data/worker1:/app/data
+    networks:
+      - simulation_network
+    command: python worker_service.py --port 8000 --worker-id worker1
+
+  # Máquina de trabajo 2
+  worker2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simulation_worker2
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./worker_data/worker2:/app/data
+    networks:
+      - simulation_network
+    command: python worker_service.py --port 8000 --worker-id worker2
+
+  # Máquina de trabajo 3
+  worker3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simulation_worker3
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./worker_data/worker3:/app/data
+    networks:
+      - simulation_network
+    command: python worker_service.py --port 8000 --worker-id worker3
+
+networks:
+  simulation_network:
+    driver: bridge
+
+volumes:
+  worker1_data:
+  worker2_data:
+  worker3_data:

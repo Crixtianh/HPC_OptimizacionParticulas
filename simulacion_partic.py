@@ -4,7 +4,7 @@ import time
 import pygame
 
 # --- Parámetros de la Simulación ---
-NUM_PARTICULAS = 200
+NUM_PARTICULAS = 100
 ANCHO_MUNDO = 800.0
 ALTO_MUNDO = 600.0
 RADIO_PARTICULA = 5.0

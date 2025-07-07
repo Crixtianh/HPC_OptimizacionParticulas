@@ -1,0 +1,94 @@
+# Configuración de tareas para el orquestador
+tasks:
+  - id: "simulation_small"
+    type: "benchmark"
+    parameters:
+      num_particulas: 100
+      num_pasos: 1000
+      semilla: 42
+    priority: 1
+    description: "Simulación pequeña con Python puro"
+
+  - id: "simulation_small_cython"
+    type: "benchmark_cython"
+    parameters:
+      num_particulas: 100
+      num_pasos: 1000
+      semilla: 42
+    priority: 1
+    description: "Simulación pequeña con Cython"
+
+  - id: "simulation_medium"
+    type: "benchmark"
+    parameters:
+      num_particulas: 300
+      num_pasos: 2000
+      semilla: 123
+    priority: 2
+    description: "Simulación mediana con Python puro"
+
+  - id: "simulation_medium_cython"
+    type: "benchmark_cython"
+    parameters:
+      num_particulas: 300
+      num_pasos: 2000
+      semilla: 123
+    priority: 2
+    description: "Simulación mediana con Cython"
+
+  - id: "simulation_large"
+    type: "benchmark"
+    parameters:
+      num_particulas: 500
+      num_pasos: 3000
+      semilla: 456
+    priority: 3
+    description: "Simulación grande con Python puro"
+
+  - id: "simulation_large_cython"
+    type: "benchmark_cython"
+    parameters:
+      num_particulas: 500
+      num_pasos: 3000
+      semilla: 456
+    priority: 3
+    description: "Simulación grande con Cython"
+
+  - id: "performance_test_1"
+    type: "benchmark"
+    parameters:
+      num_particulas: 1000
+      num_pasos: 5000
+      semilla: 789
+    priority: 4
+    description: "Test de rendimiento intensivo Python"
+
+  - id: "performance_test_2"
+    type: "benchmark_cython"
+    parameters:
+      num_particulas: 1000
+      num_pasos: 5000
+      semilla: 789
+    priority: 4
+    description: "Test de rendimiento intensivo Cython"
+
+# Configuración de workers
+workers:
+  worker1:
+    max_concurrent_tasks: 1
+    preferred_task_types: ["benchmark", "benchmark_cython"]
+    
+  worker2:
+    max_concurrent_tasks: 1
+    preferred_task_types: ["benchmark", "benchmark_cython"]
+    
+  worker3:
+    max_concurrent_tasks: 1
+    preferred_task_types: ["benchmark", "benchmark_cython"]
+
+# Configuración del orquestador
+orchestrator:
+  health_check_interval: 30  # segundos
+  task_timeout: 600  # segundos (10 minutos)
+  max_retries: 3
+  retry_delay: 60  # segundos
