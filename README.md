@@ -1,41 +1,53 @@
 # Sistema de Orquestación de Simulaciones con Docker
 
-Este proyecto implementa un sistema distribuido para ejecutar simulaciones de partículas usando Docker y un orquestador central.
+Este proyecto implementa un sistema distribuido para ejecutar simulaciones de partículas usando Docker y un orquestador central que puede funcionar tanto localmente como distribuido en múltiples máquinas virtuales.
 
-## Arquitectura
+## 🏗️ Arquitectura
 
-- **Orquestador**: Gestiona workers, distribuye tareas y monitorea el sistema
-- **Workers**: 3 contenedores que ejecutan simulaciones
-- **API REST**: Interface para controlar y monitorear el sistema
+### **Modo Local (Todo en una máquina):**
+- **Orquestador**: Gestiona workers localmente
+- **Workers**: 3 contenedores en la misma máquina
+- **API REST**: Interface para controlar y monitorear
 
-## Estructura del Proyecto
+### **Modo Distribuido (Múltiples máquinas):**
+- **PC Principal**: Ejecuta orquestador
+- **VM1, VM2, VM3**: Cada una ejecuta un worker
+- **Comunicación**: API REST entre máquinas via red
+
+## 📁 Estructura del Proyecto
 
 ```
-├── docker-compose.yml          # Configuración de servicios
-├── Dockerfile                  # Imagen para workers
+├── docker-compose.yml          # Configuración de servicios locales
+├── Dockerfile.worker           # Imagen para workers
 ├── Dockerfile.orchestrator     # Imagen para orquestador
 ├── orchestrator.py            # Código del orquestador
 ├── worker_service.py          # Servicio worker
 ├── benchmark.py               # Simulación Python puro
 ├── benchmark_cython.py        # Simulación optimizada con Cython
 ├── configs/
-│   └── tasks.yaml            # Configuración de tareas
+│   ├── tasks.yaml            # Configuración de tareas
+│   └── network.yaml          # Configuración de red distribuida
 ├── scripts/
-│   ├── start_system.sh       # Script de inicio (Linux/Mac)
-│   ├── start_system.bat      # Script de inicio (Windows)
+│   ├── build_and_export.bat  # Construir y exportar imágenes TAR
+│   ├── create_vm_packages.bat # Crear paquetes para VMs
+│   ├── run_orchestrator.bat  # Ejecutar orquestador
+│   ├── run_worker*.bat       # Ejecutar workers específicos
+│   ├── verify_system.bat     # Verificar sistema completo
 │   └── orchestrator_client.py # Cliente para interactuar con el API
+├── VM_Packages/               # Paquetes generados para VMs
+├── INSTALACION_DISTRIBUIDA.md # Guía completa de instalación distribuida
 └── requirements*.txt          # Dependencias
 ```
 
-## Instalación y Uso
+## 🚀 Instalación y Uso
 
-### Prerrequisitos
+### 📋 Prerrequisitos
 
 - Docker
 - Docker Compose
 - Python 3.10+ (para el cliente)
 
-### Inicio Rápido
+### ⚡ Inicio Rápido - Modo Local
 
 #### En Windows:
 ```cmd
@@ -47,17 +59,40 @@ docker-compose build
 docker-compose up -d
 ```
 
-#### En Linux/Mac:
-```bash
-# Dar permisos de ejecución
-chmod +x scripts/start_system.sh
+### 🌐 Instalación Distribuida (Múltiples VMs)
 
-# Ejecutar script de inicio
-./scripts/start_system.sh
+Para configurar el sistema distribuido con workers en múltiples máquinas virtuales, sigue la guía completa:
 
-# O manualmente:
-docker-compose build
-docker-compose up -d
+📖 **[GUÍA COMPLETA DE INSTALACIÓN DISTRIBUIDA](INSTALACION_DISTRIBUIDA.md)**
+
+#### Resumen rápido:
+
+**1. En tu PC Principal:**
+```cmd
+# Construir y exportar imágenes TAR
+scripts\build_and_export.bat
+
+# Crear paquetes para VMs
+scripts\create_vm_packages.bat
+
+# Ejecutar orquestador
+scripts\run_orchestrator.bat
+```
+
+**2. En cada VM:**
+```cmd
+# Cargar imagen Docker
+load_images.bat
+
+# Ejecutar worker correspondiente
+run_worker1.bat  # VM1
+run_worker2.bat  # VM2
+run_worker3.bat  # VM3
+```
+
+**3. Verificar sistema:**
+```cmd
+scripts\verify_system.bat
 ```
 
 ### Verificar el Sistema

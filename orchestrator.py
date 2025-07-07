@@ -60,9 +60,10 @@ class WorkerManager:
             if response.status_code == 200:
                 self.workers[worker_id]['last_ping'] = datetime.now()
                 self.worker_status[worker_id] = 'online'
+                logger.debug(f"Worker {worker_id} respondió correctamente")
                 return True
         except requests.exceptions.RequestException as e:
-            logger.warning(f"Worker {worker_id} no responde: {e}")
+            logger.debug(f"Worker {worker_id} no responde: {e}")
         
         self.worker_status[worker_id] = 'offline'
         return False
@@ -281,10 +282,20 @@ def main():
     """Función principal"""
     logger.info("Iniciando Orquestador de Simulaciones")
     
+    # Obtener IPs de workers desde variables de entorno
+    worker1_ip = os.getenv('WORKER1_IP', 'localhost')
+    worker2_ip = os.getenv('WORKER2_IP', 'localhost')  
+    worker3_ip = os.getenv('WORKER3_IP', 'localhost')
+    
+    logger.info(f"Configurando workers:")
+    logger.info(f"  Worker 1: {worker1_ip}:8001")
+    logger.info(f"  Worker 2: {worker2_ip}:8002")
+    logger.info(f"  Worker 3: {worker3_ip}:8003")
+    
     # Registrar workers
-    worker_manager.register_worker('worker1', 'simulation_worker1', 8000)
-    worker_manager.register_worker('worker2', 'simulation_worker2', 8000)
-    worker_manager.register_worker('worker3', 'simulation_worker3', 8000)
+    worker_manager.register_worker('worker1', worker1_ip, 8001)
+    worker_manager.register_worker('worker2', worker2_ip, 8002)
+    worker_manager.register_worker('worker3', worker3_ip, 8003)
     
     # Iniciar thread de health check
     health_thread = threading.Thread(target=periodic_health_check)

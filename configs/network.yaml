@@ -1,0 +1,23 @@
+# Configuración de red para el orquestador distribuido
+network:
+  # IPs de las máquinas virtuales
+  workers:
+    worker1:
+      ip: "192.168.1.100"  # Cambiar por la IP real de VM1
+      port: 8001
+      
+    worker2:
+      ip: "192.168.1.101"  # Cambiar por la IP real de VM2  
+      port: 8002
+      
+    worker3:
+      ip: "192.168.1.102"  # Cambiar por la IP real de VM3
+      port: 8003
+
+  # Configuración de timeouts
+  timeouts:
+    ping_timeout: 5
+    task_timeout: 300
+    health_check_interval: 30
+
+# Para usar localhost (todo en una máquina), cambiar las IPs a "localhost"

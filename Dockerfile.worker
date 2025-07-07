@@ -1,0 +1,36 @@
+# Dockerfile para workers
+FROM python:3.10-slim
+
+# Instalar dependencias del sistema necesarias para compilar Cython
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    gcc \
+    g++ \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Crear directorio de trabajo
+WORKDIR /app
+
+# Copiar archivos de requisitos para workers
+COPY requirements_worker.txt .
+RUN pip install --no-cache-dir -r requirements_worker.txt
+
+# Copiar código fuente
+COPY benchmark.py .
+COPY benchmark_cython.py .
+COPY engine_cython.pyx .
+COPY setup.py .
+COPY worker_service.py .
+
+# Compilar extensión Cython
+RUN python setup.py build_ext --inplace
+
+# Crear directorio para datos
+RUN mkdir -p /app/data /app/logs
+
+# Exponer puerto para comunicación
+EXPOSE 8000
+
+# Comando por defecto
+CMD ["python", "worker_service.py", "--port", "8000", "--worker-id", "worker1"]
