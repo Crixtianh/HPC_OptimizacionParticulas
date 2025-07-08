@@ -1,0 +1,395 @@
+{
+  "timestamp": "2025-07-08T14:45:05.318353",
+  "tasks": [
+    {
+      "id": "startup_verify_python_0db7ea",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370060",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "startup_verify_cython_6b0a7f",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370086",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_1_60f9d9",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 5,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370109",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_1_d536d5",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 6,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370121",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_2_b9027e",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 4,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370141",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_2_cea8f7",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 5,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370150",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_3_ad8d04",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 3,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370200",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_3_264c88",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 4,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370221",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_4_f84c8a",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370234",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_4_f9381a",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 3,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370244",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_5_561351",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 1,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370253",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_5_7bf8bf",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:44:55.370261",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_python_001",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 500,
+        "SEMILLA": 42
+      },
+      "priority": 3,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_cython_001",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 500,
+        "SEMILLA": 42
+      },
+      "priority": 5,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_heavy_python",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 500,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 123
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_heavy_cython",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 500,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 123
+      },
+      "priority": 4,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_priority_task",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 999
+      },
+      "priority": 10,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "example_stress_test",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 1000,
+        "NUM_PASOS": 1500,
+        "SEMILLA": 456
+      },
+      "priority": 1,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2024-01-15T10:30:00",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  ],
+  "statistics": {
+    "total_tasks": 18,
+    "pending": 18,
+    "assigned": 0,
+    "running": 0,
+    "completed": 0,
+    "failed": 0,
+    "queue_size": 18,
+    "avg_execution_time": 0.0,
+    "min_execution_time": 0.0,
+    "max_execution_time": 0.0
+  }
+}

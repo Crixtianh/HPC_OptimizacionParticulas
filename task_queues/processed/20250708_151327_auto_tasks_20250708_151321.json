@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-07-08T15:13:21.402882",
+  "task_count": 2,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_cython_4fd9a413",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 104,
+        "NUM_PASOS": 454,
+        "SEMILLA": 6203
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T15:13:21.402823",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "performance_comparison_6fb7fd10",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 297,
+        "NUM_PASOS": 783,
+        "SEMILLA": 7339
+      },
+      "priority": 6,
+      "description": "Comparaci\u00f3n de rendimiento",
+      "template_name": "performance_comparison",
+      "created_at": "2025-07-08T15:13:21.402849",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

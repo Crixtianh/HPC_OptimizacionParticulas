@@ -1,0 +1,82 @@
+{
+  "generated_at": "2025-07-08T15:11:26.213275",
+  "task_count": 5,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_dad0ad2f",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 101,
+        "NUM_PASOS": 483,
+        "SEMILLA": 1325
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T15:11:26.213153",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_load_2fa6f0c7",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 251,
+        "NUM_PASOS": 758,
+        "SEMILLA": 2318
+      },
+      "priority": 2,
+      "description": "Prueba carga media",
+      "template_name": "test_medium_load",
+      "created_at": "2025-07-08T15:11:26.213194",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_cython_fdfc2f32",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 252,
+        "NUM_PASOS": 708,
+        "SEMILLA": 8076
+      },
+      "priority": 4,
+      "description": "Prueba carga media Cython",
+      "template_name": "test_medium_cython",
+      "created_at": "2025-07-08T15:11:26.213210",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_heavy_cython_53bee9ca",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 504,
+        "NUM_PASOS": 950,
+        "SEMILLA": 5737
+      },
+      "priority": 3,
+      "description": "Prueba carga pesada Cython",
+      "template_name": "test_heavy_cython",
+      "created_at": "2025-07-08T15:11:26.213223",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "performance_comparison_f244c74f",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 291,
+        "NUM_PASOS": 807,
+        "SEMILLA": 3888
+      },
+      "priority": 6,
+      "description": "Comparaci\u00f3n de rendimiento",
+      "template_name": "performance_comparison",
+      "created_at": "2025-07-08T15:11:26.213237",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

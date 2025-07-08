@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-07-08T15:11:54.970436",
+  "task_count": 2,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_medium_cython_6c6375a1",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 258,
+        "NUM_PASOS": 781,
+        "SEMILLA": 8633
+      },
+      "priority": 4,
+      "description": "Prueba carga media Cython",
+      "template_name": "test_medium_cython",
+      "created_at": "2025-07-08T15:11:54.970336",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_heavy_load_1762a137",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 500,
+        "NUM_PASOS": 1039,
+        "SEMILLA": 7389
+      },
+      "priority": 1,
+      "description": "Prueba carga pesada",
+      "template_name": "test_heavy_load",
+      "created_at": "2025-07-08T15:11:54.970375",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

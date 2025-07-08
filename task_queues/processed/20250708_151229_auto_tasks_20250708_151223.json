@@ -1,0 +1,52 @@
+{
+  "generated_at": "2025-07-08T15:12:23.789661",
+  "task_count": 3,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_cython_ce92fa87",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 103,
+        "NUM_PASOS": 492,
+        "SEMILLA": 6271
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T15:12:23.789590",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_cython_748f5b7a",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 249,
+        "NUM_PASOS": 789,
+        "SEMILLA": 7990
+      },
+      "priority": 4,
+      "description": "Prueba carga media Cython",
+      "template_name": "test_medium_cython",
+      "created_at": "2025-07-08T15:12:23.789617",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_heavy_cython_899cecdf",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 502,
+        "NUM_PASOS": 967,
+        "SEMILLA": 6909
+      },
+      "priority": 3,
+      "description": "Prueba carga pesada Cython",
+      "template_name": "test_heavy_cython",
+      "created_at": "2025-07-08T15:12:23.789627",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

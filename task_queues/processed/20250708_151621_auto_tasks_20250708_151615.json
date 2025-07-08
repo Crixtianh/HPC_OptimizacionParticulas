@@ -1,0 +1,82 @@
+{
+  "generated_at": "2025-07-08T15:16:15.030742",
+  "task_count": 5,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_b62cf90a",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 96,
+        "NUM_PASOS": 510,
+        "SEMILLA": 8802
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T15:16:15.030589",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_basic_cython_2de51350",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 107,
+        "NUM_PASOS": 522,
+        "SEMILLA": 6959
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T15:16:15.030632",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_load_3c8b05a8",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 250,
+        "NUM_PASOS": 739,
+        "SEMILLA": 189
+      },
+      "priority": 2,
+      "description": "Prueba carga media",
+      "template_name": "test_medium_load",
+      "created_at": "2025-07-08T15:16:15.030652",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_cython_0d571f87",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 256,
+        "NUM_PASOS": 764,
+        "SEMILLA": 9376
+      },
+      "priority": 4,
+      "description": "Prueba carga media Cython",
+      "template_name": "test_medium_cython",
+      "created_at": "2025-07-08T15:16:15.030671",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_heavy_cython_473c581c",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 502,
+        "NUM_PASOS": 976,
+        "SEMILLA": 8194
+      },
+      "priority": 3,
+      "description": "Prueba carga pesada Cython",
+      "template_name": "test_heavy_cython",
+      "created_at": "2025-07-08T15:16:15.030688",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

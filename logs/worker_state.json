@@ -1,0 +1,152 @@
+{
+  "timestamp": "2025-07-08T15:17:07.346251",
+  "workers": {
+    "worker-01": {
+      "id": "worker-01",
+      "ip": "172.20.10.3",
+      "port": 8080,
+      "status": "active",
+      "last_ping": "2025-07-08T15:17:07.337560",
+      "last_successful_ping": "2025-07-08T15:17:07.337566",
+      "consecutive_failures": 0,
+      "total_tasks_completed": 23,
+      "average_response_time": 0.08047635555267334,
+      "current_task": null,
+      "processing_power": 1.0,
+      "is_healthy": true,
+      "is_available": true,
+      "task_history": [
+        {
+          "task_id": "performance_comparison_2f37da2e",
+          "execution_time": 14.5082,
+          "success": true,
+          "timestamp": "2025-07-08T15:05:53.034121"
+        },
+        {
+          "task_id": "performance_comparison_d7e32b66",
+          "execution_time": 15.3516,
+          "success": true,
+          "timestamp": "2025-07-08T15:06:53.679902"
+        },
+        {
+          "task_id": "performance_comparison_2ce6453c",
+          "execution_time": 15.4628,
+          "success": true,
+          "timestamp": "2025-07-08T15:08:08.142143"
+        },
+        {
+          "task_id": "performance_comparison_3b46c109",
+          "execution_time": 16.5559,
+          "success": true,
+          "timestamp": "2025-07-08T15:09:23.860426"
+        },
+        {
+          "task_id": "performance_comparison_2ec0f107",
+          "execution_time": 15.9041,
+          "success": true,
+          "timestamp": "2025-07-08T15:10:40.210251"
+        },
+        {
+          "task_id": "performance_comparison_6f730a8b",
+          "execution_time": 16.7542,
+          "success": true,
+          "timestamp": "2025-07-08T15:11:56.044969"
+        },
+        {
+          "task_id": "performance_comparison_70f42518",
+          "execution_time": 15.5982,
+          "success": true,
+          "timestamp": "2025-07-08T15:13:10.689315"
+        },
+        {
+          "task_id": "performance_comparison_6fb7fd10",
+          "execution_time": 14.9459,
+          "success": true,
+          "timestamp": "2025-07-08T15:14:25.885607"
+        },
+        {
+          "task_id": "performance_comparison_8e76d45e",
+          "execution_time": 15.9487,
+          "success": true,
+          "timestamp": "2025-07-08T15:15:40.780314"
+        },
+        {
+          "task_id": "performance_comparison_9203e176",
+          "execution_time": 15.4261,
+          "success": true,
+          "timestamp": "2025-07-08T15:16:56.565526"
+        }
+      ],
+      "average_task_time": 12.965395652173912,
+      "success_rate": 1.0,
+      "load_score": 0.0970175204819389
+    },
+    "worker-02": {
+      "id": "worker-02",
+      "ip": "172.20.10.4",
+      "port": 8080,
+      "status": "active",
+      "last_ping": "2025-07-08T15:17:07.346191",
+      "last_successful_ping": "2025-07-08T15:17:07.346194",
+      "consecutive_failures": 0,
+      "total_tasks_completed": 4,
+      "average_response_time": 0.02253901958465576,
+      "current_task": "performance_comparison_ddb255b7",
+      "processing_power": 0.8,
+      "is_healthy": true,
+      "is_available": false,
+      "task_history": [
+        {
+          "task_id": "startup_verify_python_6a3c1e",
+          "execution_time": 3.8052,
+          "success": true,
+          "timestamp": "2025-07-08T14:52:20.923614"
+        },
+        {
+          "task_id": "perf_cython_2_684880",
+          "execution_time": 9.571,
+          "success": true,
+          "timestamp": "2025-07-08T14:52:33.936468"
+        },
+        {
+          "task_id": "perf_cython_3_fe012d",
+          "execution_time": 43.0476,
+          "success": true,
+          "timestamp": "2025-07-08T14:53:19.774592"
+        },
+        {
+          "task_id": "performance_comparison_d5cc0185",
+          "execution_time": 42.9808,
+          "success": true,
+          "timestamp": "2025-07-08T15:06:35.510544"
+        }
+      ],
+      "average_task_time": 24.85115,
+      "success_rate": 1.0,
+      "load_score": 0.4332713578338623
+    }
+  },
+  "stats": {
+    "total_pings": 622,
+    "successful_pings": 622,
+    "failed_pings": 0,
+    "workers_discovered": 2,
+    "workers_lost": 0,
+    "tasks_distributed": 27,
+    "tasks_completed": 27,
+    "tasks_failed": 0,
+    "uptime_start": "2025-07-08T14:52:14.211029"
+  },
+  "task_stats": {
+    "total_tasks": 153,
+    "pending": 125,
+    "assigned": 1,
+    "running": 0,
+    "completed": 27,
+    "failed": 0,
+    "queue_size": 125,
+    "avg_execution_time": 0.004153296296296296,
+    "min_execution_time": 0.000964,
+    "max_execution_time": 0.013719
+  }
+}

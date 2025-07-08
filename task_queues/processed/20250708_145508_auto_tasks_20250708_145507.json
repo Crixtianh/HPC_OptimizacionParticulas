@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-07-08T14:55:07.133582",
+  "task_count": 1,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_cython_a86e0f0e",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 97,
+        "NUM_PASOS": 454,
+        "SEMILLA": 8989
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T14:55:07.133510",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

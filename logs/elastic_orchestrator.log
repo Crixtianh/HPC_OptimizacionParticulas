@@ -1,0 +1,233 @@
+2025-07-08 13:47:59,181 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 13:47:59,182 - __main__ - INFO - 🚀 Orquestador elástico inicializado
+2025-07-08 13:47:59,183 - __main__ - INFO - 🎯 Iniciando orquestador elástico...
+2025-07-08 13:47:59,185 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 13:47:59,185 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 13:47:59,187 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas...
+2025-07-08 13:47:59,187 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas iniciado
+2025-07-08 13:47:59,190 - __main__ - INFO - ✅ Orquestador elástico iniciado exitosamente
+2025-07-08 13:48:07,352 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 13:48:07,353 - __main__ - INFO - 🚀 Orquestador elástico inicializado
+2025-07-08 13:48:07,354 - __main__ - INFO - 🎯 Iniciando orquestador elástico...
+2025-07-08 13:48:07,355 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 13:48:07,355 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 13:48:07,356 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas...
+2025-07-08 13:48:07,356 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas iniciado
+2025-07-08 13:48:07,358 - __main__ - INFO - ✅ Orquestador elástico iniciado exitosamente
+2025-07-08 13:48:07,499 - __main__ - INFO - 📊 Estadísticas - Workers: 2/2 activos, 2 saludables, Ping success: 100.0%
+2025-07-08 13:49:07,083 - __main__ - INFO - 🛑 Recibida señal 2, terminando...
+2025-07-08 13:49:07,084 - __main__ - INFO - 🛑 Deteniendo orquestador elástico...
+2025-07-08 13:49:14,927 - __main__ - INFO - ✅ Orquestador elástico detenido
+2025-07-08 13:49:19,572 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 13:49:19,573 - __main__ - INFO - 🚀 Orquestador elástico inicializado
+2025-07-08 13:49:19,574 - __main__ - INFO - 🎯 Iniciando orquestador elástico...
+2025-07-08 13:49:19,576 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 13:49:19,576 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 13:49:19,580 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas...
+2025-07-08 13:49:19,581 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas iniciado
+2025-07-08 13:49:19,585 - __main__ - INFO - ✅ Orquestador elástico iniciado exitosamente
+2025-07-08 13:49:19,636 - __main__ - INFO - 📊 Estadísticas - Workers: 2/2 activos, 2 saludables, Ping success: 100.0%
+2025-07-08 13:50:15,791 - __main__ - INFO - 🚀 Ejecutando tarea en worker-02
+2025-07-08 13:50:15,807 - __main__ - ERROR - ❌ Error ejecutando tarea en worker-02: 400
+2025-07-08 13:50:49,449 - __main__ - INFO - 🚀 Ejecutando tarea en worker-02
+2025-07-08 13:51:41,289 - __main__ - INFO - ✅ Tarea completada en worker-02
+2025-07-08 14:04:19,685 - __main__ - INFO - 📊 Estadísticas - Workers: 2/2 activos, 2 saludables, Ping success: 100.0%
+2025-07-08 14:04:27,290 - __main__ - INFO - 🛑 Deteniendo orquestador elástico...
+2025-07-08 14:04:29,834 - __main__ - INFO - ✅ Orquestador elástico detenido
+2025-07-08 14:20:32,845 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 14:20:32,846 - __main__ - INFO - 🚀 Orquestador elástico v6 inicializado
+2025-07-08 14:20:32,847 - __main__ - INFO - 🎯 Iniciando orquestador elástico v6...
+2025-07-08 14:20:32,850 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 14:20:32,850 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 14:20:32,853 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas y distribución...
+2025-07-08 14:20:32,854 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas y Distribuidor iniciado
+2025-07-08 14:20:32,860 - __main__ - INFO - ✅ Orquestador elástico v6 iniciado exitosamente
+2025-07-08 14:20:32,903 - __main__ - INFO - 🔗 Worker worker-01 conectado
+2025-07-08 14:23:05,899 - __main__ - INFO - 🛑 Deteniendo orquestador elástico v6...
+2025-07-08 14:23:05,910 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_142305.json
+2025-07-08 14:23:10,513 - __main__ - INFO - ✅ Orquestador elástico v6 detenido
+2025-07-08 14:23:28,847 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 14:23:28,848 - __main__ - INFO - 🚀 Orquestador elástico v6 inicializado
+2025-07-08 14:23:28,849 - __main__ - INFO - 🎯 Iniciando orquestador elástico v6...
+2025-07-08 14:23:28,850 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 14:23:28,850 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 14:23:28,852 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas y distribución...
+2025-07-08 14:23:28,853 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas y Distribuidor iniciado
+2025-07-08 14:23:28,857 - __main__ - INFO - ✅ Orquestador elástico v6 iniciado exitosamente
+2025-07-08 14:23:29,030 - __main__ - INFO - 🔗 Worker worker-01 conectado
+2025-07-08 14:23:29,036 - __main__ - INFO - 📊 Estadísticas - Workers: 1/2 activos, 1 saludables, Ping success: 100.0%, Tareas: 0/0 completadas
+2025-07-08 14:23:52,856 - __main__ - INFO - 🔗 Worker worker-02 conectado
+2025-07-08 14:24:33,513 - __main__ - INFO - 📋 Tarea agregada: 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 (benchmark.py)
+2025-07-08 14:24:33,783 - __main__ - INFO - 🔄 Tarea 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 cambió a estado: assigned
+2025-07-08 14:24:47,632 - __main__ - INFO - 🔄 Tarea 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 cambió a estado: running
+2025-07-08 14:24:47,634 - __main__ - INFO - 📤 Tarea 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 enviada a worker-01
+2025-07-08 14:24:47,636 - __main__ - INFO - 🔄 Tarea 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 cambió a estado: completed
+2025-07-08 14:24:47,638 - __main__ - INFO - ✅ Tarea 9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0 completada por worker-01 en 14.35s
+2025-07-08 14:25:45,017 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_142545.json
+2025-07-08 14:30:00,738 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_143000.json
+2025-07-08 14:35:00,611 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_143500.json
+2025-07-08 14:40:00,654 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_144000.json
+2025-07-08 14:40:18,623 - __main__ - INFO - 🛑 Recibida señal 2, terminando...
+2025-07-08 14:40:18,626 - __main__ - INFO - 🛑 Deteniendo orquestador elástico v6...
+2025-07-08 14:40:18,637 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_144018.json
+2025-07-08 14:40:19,490 - __main__ - INFO - ✅ Orquestador elástico v6 detenido
+2025-07-08 14:44:55,285 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 14:44:55,357 - __main__ - INFO - 🚀 Orquestador elástico v6 inicializado
+2025-07-08 14:44:55,358 - __main__ - INFO - 🎯 Iniciando orquestador elástico v6...
+2025-07-08 14:44:55,360 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 14:44:55,360 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 14:44:55,361 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:44:55,363 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas y distribución...
+2025-07-08 14:44:55,363 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas y Distribuidor iniciado
+2025-07-08 14:44:55,364 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:44:55,367 - __main__ - INFO - 🔄 Iniciando loop de carga automática de tareas...
+2025-07-08 14:44:55,367 - __main__ - INFO - 🧠 MEMORIA 3: Cargador Automático de Tareas iniciado
+2025-07-08 14:44:55,369 - auto_task_generator - INFO - 🎯 Creando tareas de inicio...
+2025-07-08 14:44:55,377 - auto_task_generator - INFO - 📁 Cola de tareas guardada: auto_tasks_20250708_144455.json (12 tareas)
+2025-07-08 14:44:55,378 - __main__ - INFO - 📁 Procesando archivo de tareas: auto_tasks_20250708_144455.json
+2025-07-08 14:44:55,378 - auto_task_generator - INFO - 🎉 Tareas de inicio creadas: 12 tareas
+2025-07-08 14:44:55,381 - auto_task_generator - INFO - 🔄 Iniciando loop de generación automática...
+2025-07-08 14:44:55,381 - auto_task_generator - INFO - 🚀 Generador automático de tareas iniciado
+2025-07-08 14:44:55,382 - __main__ - INFO - 🤖 Generador automático de tareas iniciado
+2025-07-08 14:44:55,384 - __main__ - INFO - ✅ Orquestador elástico v6 iniciado exitosamente
+2025-07-08 14:44:55,406 - __main__ - INFO - ✅ Cargadas 12/12 tareas desde auto_tasks_20250708_144455.json
+2025-07-08 14:44:55,437 - __main__ - INFO - 📁 Procesando archivo de tareas: example_tasks.json
+2025-07-08 14:44:55,451 - __main__ - INFO - ✅ Cargadas 6/6 tareas desde example_tasks.json
+2025-07-08 14:44:56,377 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:44:56,400 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:44:57,385 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:44:57,436 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:44:58,391 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:44:58,478 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:44:59,397 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:44:59,524 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:00,405 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:45:00,541 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:01,412 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:45:01,549 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:02,416 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:45:02,594 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:03,420 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:45:03,614 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:04,440 - __main__ - ERROR - ❌ Error en monitor de tareas: 'ElasticOrchestratorV6' object has no attribute '_distribute_tasks'
+2025-07-08 14:45:04,624 - __main__ - ERROR - ❌ Error en monitor de workers: 'ElasticOrchestratorV6' object has no attribute '_ping_all_workers'
+2025-07-08 14:45:05,316 - __main__ - INFO - 🛑 Recibida señal 2, terminando...
+2025-07-08 14:45:05,317 - __main__ - INFO - 🛑 Deteniendo orquestador elástico v6...
+2025-07-08 14:45:05,331 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_144505.json
+2025-07-08 14:45:10,381 - auto_task_generator - INFO - 🛑 Generador automático de tareas detenido
+2025-07-08 14:45:10,383 - __main__ - INFO - ✅ Orquestador elástico v6 detenido
+2025-07-08 14:49:05,175 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 14:49:05,201 - __main__ - INFO - 🚀 Orquestador elástico v6 inicializado
+2025-07-08 14:49:05,201 - __main__ - INFO - 🎯 Iniciando orquestador elástico v6...
+2025-07-08 14:49:05,203 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 14:49:05,203 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 14:49:05,206 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas y distribución...
+2025-07-08 14:49:05,207 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas y Distribuidor iniciado
+2025-07-08 14:49:05,210 - __main__ - INFO - 🔄 Iniciando loop de carga automática de tareas...
+2025-07-08 14:49:05,210 - __main__ - INFO - 🧠 MEMORIA 3: Cargador Automático de Tareas iniciado
+2025-07-08 14:49:05,214 - auto_task_generator - INFO - 🎯 Creando tareas de inicio...
+2025-07-08 14:49:05,221 - __main__ - INFO - 📁 Procesando archivo de tareas: auto_tasks_20250708_144905.json
+2025-07-08 14:49:05,222 - auto_task_generator - INFO - 📁 Cola de tareas guardada: auto_tasks_20250708_144905.json (12 tareas)
+2025-07-08 14:49:05,223 - auto_task_generator - INFO - 🎉 Tareas de inicio creadas: 12 tareas
+2025-07-08 14:49:05,224 - auto_task_generator - INFO - 🔄 Iniciando loop de generación automática...
+2025-07-08 14:49:05,224 - auto_task_generator - INFO - 🚀 Generador automático de tareas iniciado
+2025-07-08 14:49:05,225 - __main__ - INFO - 🤖 Generador automático de tareas iniciado
+2025-07-08 14:49:05,226 - __main__ - INFO - ✅ Orquestador elástico v6 iniciado exitosamente
+2025-07-08 14:49:05,249 - __main__ - INFO - ✅ Cargadas 12/12 tareas desde auto_tasks_20250708_144905.json
+2025-07-08 14:49:05,352 - __main__ - INFO - 🔗 Worker worker-01 conectado
+2025-07-08 14:49:05,371 - __main__ - INFO - 🔗 Worker worker-02 conectado
+2025-07-08 14:49:05,372 - __main__ - INFO - 📊 Estadísticas - Workers: 2/2 activos, 2 saludables, Ping success: 100.0%, Tareas: 0/12 completadas
+2025-07-08 14:49:07,296 - __main__ - INFO - 🔄 Tarea startup_verify_cython_a389d1 cambió a estado: assigned
+2025-07-08 14:49:08,014 - __main__ - INFO - 🔄 Tarea startup_verify_cython_a389d1 cambió a estado: running
+2025-07-08 14:49:08,016 - __main__ - INFO - 📤 Tarea startup_verify_cython_a389d1 enviada a worker-01
+2025-07-08 14:49:08,018 - __main__ - INFO - 🔄 Tarea startup_verify_cython_a389d1 cambió a estado: completed
+2025-07-08 14:49:08,019 - __main__ - INFO - ✅ Tarea startup_verify_cython_a389d1 completada por worker-01 en 0.56s
+2025-07-08 14:49:08,019 - __main__ - INFO - 🔄 Tarea startup_verify_python_95e087 cambió a estado: assigned
+2025-07-08 14:49:15,900 - __main__ - INFO - 🔄 Tarea startup_verify_python_95e087 cambió a estado: running
+2025-07-08 14:49:15,903 - __main__ - INFO - 📤 Tarea startup_verify_python_95e087 enviada a worker-02
+2025-07-08 14:49:15,906 - __main__ - INFO - 🔄 Tarea startup_verify_python_95e087 cambió a estado: completed
+2025-07-08 14:49:15,907 - __main__ - INFO - ✅ Tarea startup_verify_python_95e087 completada por worker-02 en 8.75s
+2025-07-08 14:49:17,993 - __main__ - INFO - 🔄 Tarea perf_cython_1_526ea6 cambió a estado: assigned
+2025-07-08 14:49:18,807 - __main__ - INFO - 🔄 Tarea perf_cython_1_526ea6 cambió a estado: running
+2025-07-08 14:49:18,809 - __main__ - INFO - 📤 Tarea perf_cython_1_526ea6 enviada a worker-01
+2025-07-08 14:49:18,810 - __main__ - INFO - 🔄 Tarea perf_cython_1_526ea6 cambió a estado: completed
+2025-07-08 14:49:18,810 - __main__ - INFO - ✅ Tarea perf_cython_1_526ea6 completada por worker-01 en 0.64s
+2025-07-08 14:49:18,811 - __main__ - INFO - 🔄 Tarea perf_cython_2_261e91 cambió a estado: assigned
+2025-07-08 14:49:30,012 - __main__ - INFO - 🔄 Tarea perf_cython_2_261e91 cambió a estado: running
+2025-07-08 14:49:30,015 - __main__ - INFO - 📤 Tarea perf_cython_2_261e91 enviada a worker-02
+2025-07-08 14:49:30,018 - __main__ - INFO - 🔄 Tarea perf_cython_2_261e91 cambió a estado: completed
+2025-07-08 14:49:30,021 - __main__ - INFO - ✅ Tarea perf_cython_2_261e91 completada por worker-02 en 10.71s
+2025-07-08 14:49:32,059 - __main__ - INFO - 🔄 Tarea perf_python_1_0ddfbe cambió a estado: assigned
+2025-07-08 14:49:33,445 - __main__ - INFO - 🔄 Tarea perf_python_1_0ddfbe cambió a estado: running
+2025-07-08 14:49:33,447 - __main__ - INFO - 📤 Tarea perf_python_1_0ddfbe enviada a worker-01
+2025-07-08 14:49:33,448 - __main__ - INFO - 🔄 Tarea perf_python_1_0ddfbe cambió a estado: completed
+2025-07-08 14:49:33,449 - __main__ - INFO - ✅ Tarea perf_python_1_0ddfbe completada por worker-01 en 1.16s
+2025-07-08 14:49:33,450 - __main__ - INFO - 🔄 Tarea perf_cython_3_64534c cambió a estado: assigned
+2025-07-08 14:49:34,015 - auto_task_generator - INFO - 📁 Cola de tareas guardada: auto_tasks_20250708_144934.json (3 tareas)
+2025-07-08 14:49:34,016 - auto_task_generator - INFO - ✅ Generadas 3 tareas automáticamente
+2025-07-08 14:49:34,081 - __main__ - INFO - 📁 Procesando archivo de tareas: auto_tasks_20250708_144934.json
+2025-07-08 14:49:34,087 - __main__ - INFO - ✅ Cargadas 3/3 tareas desde auto_tasks_20250708_144934.json
+2025-07-08 14:50:02,871 - auto_task_generator - INFO - 📁 Cola de tareas guardada: auto_tasks_20250708_145002.json (3 tareas)
+2025-07-08 14:50:02,873 - auto_task_generator - INFO - ✅ Generadas 3 tareas automáticamente
+2025-07-08 14:50:03,051 - __main__ - INFO - 📁 Procesando archivo de tareas: auto_tasks_20250708_145002.json
+2025-07-08 14:50:03,062 - __main__ - INFO - ✅ Cargadas 3/3 tareas desde auto_tasks_20250708_145002.json
+2025-07-08 14:50:09,670 - __main__ - INFO - 🛑 Deteniendo orquestador elástico v6...
+2025-07-08 14:50:09,686 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_145009.json
+2025-07-08 14:50:11,721 - __main__ - INFO - 🔄 Tarea perf_cython_3_64534c cambió a estado: running
+2025-07-08 14:50:11,722 - __main__ - INFO - 📤 Tarea perf_cython_3_64534c enviada a worker-02
+2025-07-08 14:50:11,725 - __main__ - INFO - 🔄 Tarea perf_cython_3_64534c cambió a estado: completed
+2025-07-08 14:50:11,727 - __main__ - INFO - ✅ Tarea perf_cython_3_64534c completada por worker-02 en 39.04s
+2025-07-08 14:50:14,708 - auto_task_generator - INFO - 🛑 Generador automático de tareas detenido
+2025-07-08 14:50:14,710 - __main__ - INFO - ✅ Orquestador elástico v6 detenido
+2025-07-08 14:50:33,256 - __main__ - INFO - 📋 Cargados 2 workers desde configuración
+2025-07-08 14:50:33,274 - __main__ - INFO - 🚀 Orquestador elástico v6 inicializado
+2025-07-08 14:50:33,275 - __main__ - INFO - 🎯 Iniciando orquestador elástico v6...
+2025-07-08 14:50:33,277 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de workers...
+2025-07-08 14:50:33,277 - __main__ - INFO - 🧠 MEMORIA 1: Monitor de Workers iniciado
+2025-07-08 14:50:33,279 - __main__ - INFO - 🔄 Iniciando loop de monitoreo de tareas y distribución...
+2025-07-08 14:50:33,279 - __main__ - INFO - 🧠 MEMORIA 2: Monitor de Tareas y Distribuidor iniciado
+2025-07-08 14:50:33,281 - __main__ - INFO - 🔄 Iniciando loop de carga automática de tareas...
+2025-07-08 14:50:33,281 - __main__ - INFO - 🧠 MEMORIA 3: Cargador Automático de Tareas iniciado
+2025-07-08 14:50:33,284 - auto_task_generator - INFO - 🎯 Creando tareas de inicio...
+2025-07-08 14:50:33,293 - __main__ - INFO - 📁 Procesando archivo de tareas: auto_tasks_20250708_145033.json
+2025-07-08 14:50:33,294 - auto_task_generator - INFO - 📁 Cola de tareas guardada: auto_tasks_20250708_145033.json (12 tareas)
+2025-07-08 14:50:33,295 - auto_task_generator - INFO - 🎉 Tareas de inicio creadas: 12 tareas
+2025-07-08 14:50:33,296 - auto_task_generator - INFO - 🔄 Iniciando loop de generación automática...
+2025-07-08 14:50:33,296 - auto_task_generator - INFO - 🚀 Generador automático de tareas iniciado
+2025-07-08 14:50:33,297 - __main__ - INFO - 🤖 Generador automático de tareas iniciado
+2025-07-08 14:50:33,298 - __main__ - INFO - ✅ Orquestador elástico v6 iniciado exitosamente
+2025-07-08 14:50:33,322 - __main__ - INFO - ✅ Cargadas 12/12 tareas desde auto_tasks_20250708_145033.json
+2025-07-08 14:50:33,350 - __main__ - INFO - 🔗 Worker worker-01 conectado
+2025-07-08 14:50:33,365 - __main__ - INFO - 🔗 Worker worker-02 conectado
+2025-07-08 14:50:33,366 - __main__ - INFO - 📊 Estadísticas - Workers: 2/2 activos, 2 saludables, Ping success: 100.0%, Tareas: 0/12 completadas
+2025-07-08 14:50:35,283 - __main__ - INFO - 🔄 Tarea startup_verify_cython_9aa89f cambió a estado: assigned
+2025-07-08 14:50:36,014 - __main__ - INFO - 🔄 Tarea startup_verify_cython_9aa89f cambió a estado: running
+2025-07-08 14:50:36,016 - __main__ - INFO - 📤 Tarea startup_verify_cython_9aa89f enviada a worker-01
+2025-07-08 14:50:36,020 - __main__ - INFO - 🔄 Tarea startup_verify_cython_9aa89f cambió a estado: completed
+2025-07-08 14:50:36,021 - __main__ - INFO - ✅ Tarea startup_verify_cython_9aa89f completada por worker-01 en 0.59s
+2025-07-08 14:50:36,022 - __main__ - INFO - 🔄 Tarea startup_verify_python_f30358 cambió a estado: assigned
+2025-07-08 14:50:40,028 - __main__ - INFO - 🔄 Tarea startup_verify_python_f30358 cambió a estado: running
+2025-07-08 14:50:40,029 - __main__ - INFO - 📤 Tarea startup_verify_python_f30358 enviada a worker-02
+2025-07-08 14:50:40,030 - __main__ - INFO - 🔄 Tarea startup_verify_python_f30358 cambió a estado: completed
+2025-07-08 14:50:40,030 - __main__ - INFO - ✅ Tarea startup_verify_python_f30358 completada por worker-02 en 3.82s
+2025-07-08 14:50:40,842 - __main__ - INFO - 🔄 Tarea perf_cython_1_e62588 cambió a estado: assigned
+2025-07-08 14:50:41,567 - __main__ - INFO - 🔄 Tarea perf_cython_1_e62588 cambió a estado: running
+2025-07-08 14:50:41,568 - __main__ - INFO - 📤 Tarea perf_cython_1_e62588 enviada a worker-01
+2025-07-08 14:50:41,570 - __main__ - INFO - 🔄 Tarea perf_cython_1_e62588 cambió a estado: completed
+2025-07-08 14:50:41,571 - __main__ - INFO - ✅ Tarea perf_cython_1_e62588 completada por worker-01 en 0.65s
+2025-07-08 14:50:41,571 - __main__ - INFO - 🔄 Tarea perf_cython_2_e07a76 cambió a estado: assigned
+2025-07-08 14:50:51,713 - __main__ - INFO - 🔄 Tarea perf_cython_2_e07a76 cambió a estado: running
+2025-07-08 14:50:51,715 - __main__ - INFO - 📤 Tarea perf_cython_2_e07a76 enviada a worker-02
+2025-07-08 14:50:51,717 - __main__ - INFO - 🔄 Tarea perf_cython_2_e07a76 cambió a estado: completed
+2025-07-08 14:50:51,718 - __main__ - INFO - ✅ Tarea perf_cython_2_e07a76 completada por worker-02 en 9.70s
+2025-07-08 14:50:53,805 - __main__ - INFO - 🔄 Tarea perf_python_1_18d1d3 cambió a estado: assigned
+2025-07-08 14:50:54,316 - __main__ - INFO - 🛑 Recibida señal 2, terminando...
+2025-07-08 14:50:54,317 - __main__ - INFO - 🛑 Deteniendo orquestador elástico v6...
+2025-07-08 14:50:54,333 - __main__ - INFO - 💾 Resultados guardados en: results/task_results_20250708_145054.json
+2025-07-08 14:50:55,198 - __main__ - INFO - 🔄 Tarea perf_python_1_18d1d3 cambió a estado: running
+2025-07-08 14:50:55,199 - __main__ - INFO - 📤 Tarea perf_python_1_18d1d3 enviada a worker-01
+2025-07-08 14:50:55,201 - __main__ - INFO - 🔄 Tarea perf_python_1_18d1d3 cambió a estado: completed
+2025-07-08 14:50:55,201 - __main__ - INFO - ✅ Tarea perf_python_1_18d1d3 completada por worker-01 en 1.15s
+2025-07-08 14:50:55,202 - __main__ - INFO - 🔄 Tarea perf_cython_3_e56061 cambió a estado: assigned
+2025-07-08 14:50:59,338 - auto_task_generator - INFO - 🛑 Generador automático de tareas detenido
+2025-07-08 14:51:04,346 - __main__ - INFO - ✅ Orquestador elástico v6 detenido

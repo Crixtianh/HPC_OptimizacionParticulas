@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-07-08T14:57:59.995532",
+  "task_count": 1,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_69b83fa5",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 93,
+        "NUM_PASOS": 454,
+        "SEMILLA": 1470
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T14:57:59.995448",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

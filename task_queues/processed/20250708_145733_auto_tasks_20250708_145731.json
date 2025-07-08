@@ -1,0 +1,52 @@
+{
+  "generated_at": "2025-07-08T14:57:31.200181",
+  "task_count": 3,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_8e11f988",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 91,
+        "NUM_PASOS": 463,
+        "SEMILLA": 6654
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T14:57:31.200079",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_basic_cython_0c4c6024",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 91,
+        "NUM_PASOS": 515,
+        "SEMILLA": 838
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T14:57:31.200117",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "performance_comparison_e1834ad5",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 299,
+        "NUM_PASOS": 791,
+        "SEMILLA": 4472
+      },
+      "priority": 6,
+      "description": "Comparaci\u00f3n de rendimiento",
+      "template_name": "performance_comparison",
+      "created_at": "2025-07-08T14:57:31.200137",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

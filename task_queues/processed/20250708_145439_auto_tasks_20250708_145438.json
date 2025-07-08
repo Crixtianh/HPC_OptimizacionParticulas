@@ -1,0 +1,52 @@
+{
+  "generated_at": "2025-07-08T14:54:38.330047",
+  "task_count": 3,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_9ff5add7",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 94,
+        "NUM_PASOS": 531,
+        "SEMILLA": 4589
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T14:54:38.329938",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_basic_cython_cdcd2b38",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 99,
+        "NUM_PASOS": 542,
+        "SEMILLA": 6339
+      },
+      "priority": 5,
+      "description": "Prueba b\u00e1sica Cython",
+      "template_name": "test_basic_cython",
+      "created_at": "2025-07-08T14:54:38.329977",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_load_742a8443",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 245,
+        "NUM_PASOS": 741,
+        "SEMILLA": 2007
+      },
+      "priority": 2,
+      "description": "Prueba carga media",
+      "template_name": "test_medium_load",
+      "created_at": "2025-07-08T14:54:38.329994",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "timestamp": "2025-07-08T14:50:09.671715",
+  "tasks": [
+    {
+      "id": "startup_verify_python_95e087",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "status": "completed",
+      "assigned_worker": "worker-02",
+      "created_at": "2025-07-08T14:49:05.214934",
+      "assigned_at": "2025-07-08T14:49:08.019957",
+      "started_at": "2025-07-08T14:49:15.900766",
+      "completed_at": "2025-07-08T14:49:15.906173",
+      "execution_time": 0.005407,
+      "result": {
+        "benchmark": "benchmark.py",
+        "execution_time": 8.7498,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=50, NUM_PASOS=100, SEMILLA=1\nIniciando benchmark\n  Progreso: 10 / 100 pasos completados...\n  Progreso: 20 / 100 pasos completados...\n  Progreso: 30 / 100 pasos completados...\n  Progreso: 40 / 100 pasos completados...\n  Progreso: 50 / 100 pasos completados...\n  Progreso: 60 / 100 pasos completados...\n  Progreso: 70 / 100 pasos completados...\n  Progreso: 80 / 100 pasos completados...\n  Progreso: 90 / 100 pasos completados...\n  Progreso: 100 / 100 pasos completados...\n------------------------------\nSIMULACI\u00d3N BASE\nSimulaci\u00f3n completada en 1.1333 segundos, con semilla 1.\nTotal pasos: 100, Part\u00edculas: 50\nTotal colisiones Part\u00edcula-Part\u00edcula: 10\nTotal colisiones con Pared: 15\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 50,
+          "NUM_PASOS": 100,
+          "SEMILLA": 1
+        },
+        "particle_collisions": "10",
+        "status": "success",
+        "timestamp": "2025-07-08T14:49:16.326041",
+        "wall_collisions": "15",
+        "worker_id": "worker-172.20.10.4"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "startup_verify_cython_a389d1",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "status": "completed",
+      "assigned_worker": "worker-01",
+      "created_at": "2025-07-08T14:49:05.214952",
+      "assigned_at": "2025-07-08T14:49:07.296040",
+      "started_at": "2025-07-08T14:49:08.014439",
+      "completed_at": "2025-07-08T14:49:08.018428",
+      "execution_time": 0.003989,
+      "result": {
+        "benchmark": "benchmark_cython.py",
+        "execution_time": 0.5623,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=50, NUM_PASOS=100, SEMILLA=1\nIniciando benchmark con Cython\n  Progreso: 10 / 100 pasos completados...\n  Progreso: 20 / 100 pasos completados...\n  Progreso: 30 / 100 pasos completados...\n  Progreso: 40 / 100 pasos completados...\n  Progreso: 50 / 100 pasos completados...\n  Progreso: 60 / 100 pasos completados...\n  Progreso: 70 / 100 pasos completados...\n  Progreso: 80 / 100 pasos completados...\n  Progreso: 90 / 100 pasos completados...\n  Progreso: 100 / 100 pasos completados...\n------------------------------\nSIMULACI\u00d3N OPTIMIZADA (CON CYTHON)\nSimulaci\u00f3n completada en 0.0780 segundos, con semilla1.\nTotal pasos: 100, part\u00edculas: 50 \nTotal colisiones Part\u00edcula-Part\u00edcula: 10\nTotal colisiones con Pared: 16\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 50,
+          "NUM_PASOS": 100,
+          "SEMILLA": 1
+        },
+        "particle_collisions": "10",
+        "status": "success",
+        "timestamp": "2025-07-08T14:49:06.935708",
+        "wall_collisions": "16",
+        "worker_id": "worker-172.20.10.3"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_1_0ddfbe",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 5,
+      "status": "completed",
+      "assigned_worker": "worker-01",
+      "created_at": "2025-07-08T14:49:05.214970",
+      "assigned_at": "2025-07-08T14:49:32.059524",
+      "started_at": "2025-07-08T14:49:33.445522",
+      "completed_at": "2025-07-08T14:49:33.448655",
+      "execution_time": 0.003133,
+      "result": {
+        "benchmark": "benchmark.py",
+        "execution_time": 1.1564,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=50, NUM_PASOS=200, SEMILLA=42\nIniciando benchmark\n  Progreso: 20 / 200 pasos completados...\n  Progreso: 40 / 200 pasos completados...\n  Progreso: 60 / 200 pasos completados...\n  Progreso: 80 / 200 pasos completados...\n  Progreso: 100 / 200 pasos completados...\n  Progreso: 120 / 200 pasos completados...\n  Progreso: 140 / 200 pasos completados...\n  Progreso: 160 / 200 pasos completados...\n  Progreso: 180 / 200 pasos completados...\n  Progreso: 200 / 200 pasos completados...\n------------------------------\nSIMULACI\u00d3N BASE\nSimulaci\u00f3n completada en 0.6360 segundos, con semilla 42.\nTotal pasos: 200, Part\u00edculas: 50\nTotal colisiones Part\u00edcula-Part\u00edcula: 20\nTotal colisiones con Pared: 32\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 50,
+          "NUM_PASOS": 200,
+          "SEMILLA": 42
+        },
+        "particle_collisions": "20",
+        "status": "success",
+        "timestamp": "2025-07-08T14:49:32.516318",
+        "wall_collisions": "32",
+        "worker_id": "worker-172.20.10.3"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_1_526ea6",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 6,
+      "status": "completed",
+      "assigned_worker": "worker-01",
+      "created_at": "2025-07-08T14:49:05.214977",
+      "assigned_at": "2025-07-08T14:49:17.993701",
+      "started_at": "2025-07-08T14:49:18.807353",
+      "completed_at": "2025-07-08T14:49:18.810282",
+      "execution_time": 0.002929,
+      "result": {
+        "benchmark": "benchmark_cython.py",
+        "execution_time": 0.6356,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=50, NUM_PASOS=200, SEMILLA=42\nIniciando benchmark con Cython\n  Progreso: 20 / 200 pasos completados...\n  Progreso: 40 / 200 pasos completados...\n  Progreso: 60 / 200 pasos completados...\n  Progreso: 80 / 200 pasos completados...\n  Progreso: 100 / 200 pasos completados...\n  Progreso: 120 / 200 pasos completados...\n  Progreso: 140 / 200 pasos completados...\n  Progreso: 160 / 200 pasos completados...\n  Progreso: 180 / 200 pasos completados...\n  Progreso: 200 / 200 pasos completados...\n------------------------------\nSIMULACI\u00d3N OPTIMIZADA (CON CYTHON)\nSimulaci\u00f3n completada en 0.1265 segundos, con semilla42.\nTotal pasos: 200, part\u00edculas: 50 \nTotal colisiones Part\u00edcula-Part\u00edcula: 19\nTotal colisiones con Pared: 31\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 50,
+          "NUM_PASOS": 200,
+          "SEMILLA": 42
+        },
+        "particle_collisions": "19",
+        "status": "success",
+        "timestamp": "2025-07-08T14:49:18.446374",
+        "wall_collisions": "31",
+        "worker_id": "worker-172.20.10.3"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_2_7acd7e",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 4,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.214984",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_2_261e91",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 5,
+      "status": "completed",
+      "assigned_worker": "worker-02",
+      "created_at": "2025-07-08T14:49:05.214991",
+      "assigned_at": "2025-07-08T14:49:18.811141",
+      "started_at": "2025-07-08T14:49:30.012693",
+      "completed_at": "2025-07-08T14:49:30.018898",
+      "execution_time": 0.006205,
+      "result": {
+        "benchmark": "benchmark_cython.py",
+        "execution_time": 10.7137,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=100, NUM_PASOS=400, SEMILLA=43\nIniciando benchmark con Cython\n  Progreso: 40 / 400 pasos completados...\n  Progreso: 80 / 400 pasos completados...\n  Progreso: 120 / 400 pasos completados...\n  Progreso: 160 / 400 pasos completados...\n  Progreso: 200 / 400 pasos completados...\n  Progreso: 240 / 400 pasos completados...\n  Progreso: 280 / 400 pasos completados...\n  Progreso: 320 / 400 pasos completados...\n  Progreso: 360 / 400 pasos completados...\n  Progreso: 400 / 400 pasos completados...\n------------------------------\nSIMULACI\u00d3N OPTIMIZADA (CON CYTHON)\nSimulaci\u00f3n completada en 4.3482 segundos, con semilla43.\nTotal pasos: 400, part\u00edculas: 100 \nTotal colisiones Part\u00edcula-Part\u00edcula: 143\nTotal colisiones con Pared: 113\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 100,
+          "NUM_PASOS": 400,
+          "SEMILLA": 43
+        },
+        "particle_collisions": "143",
+        "status": "success",
+        "timestamp": "2025-07-08T14:49:29.851711",
+        "wall_collisions": "113",
+        "worker_id": "worker-172.20.10.4"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_3_27ea18",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 3,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.215015",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_3_64534c",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 4,
+      "status": "assigned",
+      "assigned_worker": "worker-02",
+      "created_at": "2025-07-08T14:49:05.215022",
+      "assigned_at": "2025-07-08T14:49:33.450138",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_4_55077a",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.215036",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_4_be13fc",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 3,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.215042",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_python_5_08d7f1",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 1,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.215048",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "perf_cython_5_c81517",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:05.215054",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "test_basic_cython_33031757",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 102,
+        "NUM_PASOS": 476,
+        "SEMILLA": 2588
+      },
+      "priority": 5,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:34.009396",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "test_medium_load_d5648d38",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 243,
+        "NUM_PASOS": 746,
+        "SEMILLA": 3173
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:34.009439",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "performance_comparison_4579d0ce",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 292,
+        "NUM_PASOS": 843,
+        "SEMILLA": 4840
+      },
+      "priority": 6,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:49:34.009459",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "test_basic_cython_3f40aa61",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 528,
+        "SEMILLA": 6531
+      },
+      "priority": 5,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:50:02.848641",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "test_medium_load_7562d4bc",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 241,
+        "NUM_PASOS": 797,
+        "SEMILLA": 9792
+      },
+      "priority": 2,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:50:02.848681",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    },
+    {
+      "id": "performance_comparison_22defdb4",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 296,
+        "NUM_PASOS": 767,
+        "SEMILLA": 3661
+      },
+      "priority": 6,
+      "status": "pending",
+      "assigned_worker": null,
+      "created_at": "2025-07-08T14:50:02.848702",
+      "assigned_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "execution_time": null,
+      "result": null,
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  ],
+  "statistics": {
+    "total_tasks": 18,
+    "pending": 12,
+    "assigned": 1,
+    "running": 0,
+    "completed": 5,
+    "failed": 0,
+    "queue_size": 12,
+    "avg_execution_time": 0.004332600000000001,
+    "min_execution_time": 0.002929,
+    "max_execution_time": 0.006205
+  }
+}

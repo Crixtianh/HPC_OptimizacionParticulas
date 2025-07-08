@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-08T14:35:00.599038",
+  "tasks": [
+    {
+      "id": "9c86ef3a-2d83-4c0d-8a8d-77eab51e17e0",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 40
+      },
+      "priority": 1,
+      "status": "completed",
+      "assigned_worker": "worker-01",
+      "created_at": "2025-07-08T14:24:33.512838",
+      "assigned_at": "2025-07-08T14:24:33.783113",
+      "started_at": "2025-07-08T14:24:47.632508",
+      "completed_at": "2025-07-08T14:24:47.636731",
+      "execution_time": 0.004223,
+      "result": {
+        "benchmark": "benchmark.py",
+        "execution_time": 14.3482,
+        "output": "Par\u00e1metros configurados: NUM_PARTICULAS=100, NUM_PASOS=1000, SEMILLA=40\nIniciando benchmark\n  Progreso: 100 / 1000 pasos completados...\n  Progreso: 200 / 1000 pasos completados...\n  Progreso: 300 / 1000 pasos completados...\n  Progreso: 400 / 1000 pasos completados...\n  Progreso: 500 / 1000 pasos completados...\n  Progreso: 600 / 1000 pasos completados...\n  Progreso: 700 / 1000 pasos completados...\n  Progreso: 800 / 1000 pasos completados...\n  Progreso: 900 / 1000 pasos completados...\n  Progreso: 1000 / 1000 pasos completados...\n------------------------------\nSIMULACI\u00d3N BASE\nSimulaci\u00f3n completada en 13.8341 segundos, con semilla 40.\nTotal pasos: 1000, Part\u00edculas: 100\nTotal colisiones Part\u00edcula-Part\u00edcula: 308\nTotal colisiones con Pared: 202\n------------------------------\n",
+        "params": {
+          "NUM_PARTICULAS": 100,
+          "NUM_PASOS": 1000,
+          "SEMILLA": 40
+        },
+        "particle_collisions": "308",
+        "status": "success",
+        "timestamp": "2025-07-08T14:24:47.502921",
+        "wall_collisions": "202",
+        "worker_id": "worker-172.20.10.3"
+      },
+      "error": null,
+      "retry_count": 0,
+      "max_retries": 3
+    }
+  ],
+  "statistics": {
+    "total_tasks": 1,
+    "pending": 0,
+    "assigned": 0,
+    "running": 0,
+    "completed": 1,
+    "failed": 0,
+    "queue_size": 0,
+    "avg_execution_time": 0.004223,
+    "min_execution_time": 0.004223,
+    "max_execution_time": 0.004223
+  }
+}

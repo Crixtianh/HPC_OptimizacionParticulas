@@ -1,0 +1,120 @@
+{
+  "generated_at": "2024-07-08T15:00:00",
+  "task_count": 8,
+  "source": "manual_example",
+  "description": "Archivo de tareas manual para demostración del sistema ETAPA 6",
+  "tasks": [
+    {
+      "task_id": "demo_python_light_001",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 80,
+        "NUM_PASOS": 300,
+        "SEMILLA": 100
+      },
+      "priority": 5,
+      "description": "Demostración Python - Carga ligera",
+      "created_at": "2024-07-08T15:00:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_cython_light_001",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 80,
+        "NUM_PASOS": 300,
+        "SEMILLA": 100
+      },
+      "priority": 6,
+      "description": "Demostración Cython - Carga ligera",
+      "created_at": "2024-07-08T15:00:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_python_medium_001",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 250,
+        "NUM_PASOS": 750,
+        "SEMILLA": 200
+      },
+      "priority": 3,
+      "description": "Demostración Python - Carga media",
+      "created_at": "2024-07-08T15:01:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_cython_medium_001",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 250,
+        "NUM_PASOS": 750,
+        "SEMILLA": 200
+      },
+      "priority": 4,
+      "description": "Demostración Cython - Carga media",
+      "created_at": "2024-07-08T15:01:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_python_heavy_001",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 500,
+        "NUM_PASOS": 1200,
+        "SEMILLA": 300
+      },
+      "priority": 1,
+      "description": "Demostración Python - Carga pesada",
+      "created_at": "2024-07-08T15:02:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_cython_heavy_001",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 500,
+        "NUM_PASOS": 1200,
+        "SEMILLA": 300
+      },
+      "priority": 2,
+      "description": "Demostración Cython - Carga pesada",
+      "created_at": "2024-07-08T15:02:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_stress_python_001",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1500,
+        "SEMILLA": 400
+      },
+      "priority": 1,
+      "description": "Demostración Python - Prueba de estrés",
+      "created_at": "2024-07-08T15:03:00",
+      "status": "pending",
+      "source": "manual_demo"
+    },
+    {
+      "task_id": "demo_priority_cython_001",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 150,
+        "NUM_PASOS": 400,
+        "SEMILLA": 500
+      },
+      "priority": 10,
+      "description": "Demostración Cython - Alta prioridad",
+      "created_at": "2024-07-08T15:04:00",
+      "status": "pending",
+      "source": "manual_demo"
+    }
+  ]
+}

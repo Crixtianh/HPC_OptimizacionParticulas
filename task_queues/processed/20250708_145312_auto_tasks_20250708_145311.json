@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-07-08T14:53:11.883893",
+  "task_count": 2,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_484c5a11",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 96,
+        "NUM_PASOS": 507,
+        "SEMILLA": 1404
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T14:53:11.883809",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "performance_comparison_dba004ef",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 305,
+        "NUM_PASOS": 750,
+        "SEMILLA": 5800
+      },
+      "priority": 6,
+      "description": "Comparaci\u00f3n de rendimiento",
+      "template_name": "performance_comparison",
+      "created_at": "2025-07-08T14:53:11.883848",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

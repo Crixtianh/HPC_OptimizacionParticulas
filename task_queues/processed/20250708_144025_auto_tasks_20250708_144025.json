@@ -1,0 +1,187 @@
+{
+  "generated_at": "2025-07-08T14:40:25.600418",
+  "task_count": 12,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "startup_verify_python_c6cf56",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "description": "Verificaci\u00f3n inicial Python",
+      "template_name": "startup_verification",
+      "created_at": "2025-07-08T14:40:25.600275",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "startup_verify_cython_d5fe1d",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 100,
+        "SEMILLA": 1
+      },
+      "priority": 10,
+      "description": "Verificaci\u00f3n inicial Cython",
+      "template_name": "startup_verification",
+      "created_at": "2025-07-08T14:40:25.600293",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_python_1_0358ca",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 5,
+      "description": "Benchmark Python - 50 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600312",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_cython_1_d244e7",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 50,
+        "NUM_PASOS": 200,
+        "SEMILLA": 42
+      },
+      "priority": 6,
+      "description": "Benchmark Cython - 50 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600321",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_python_2_b6f6b3",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 4,
+      "description": "Benchmark Python - 100 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600328",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_cython_2_c4923a",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 100,
+        "NUM_PASOS": 400,
+        "SEMILLA": 43
+      },
+      "priority": 5,
+      "description": "Benchmark Cython - 100 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600344",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_python_3_7ebaa8",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 3,
+      "description": "Benchmark Python - 200 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600351",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_cython_3_5003c1",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 200,
+        "NUM_PASOS": 600,
+        "SEMILLA": 44
+      },
+      "priority": 4,
+      "description": "Benchmark Cython - 200 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600360",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_python_4_27eea3",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 2,
+      "description": "Benchmark Python - 400 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600366",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_cython_4_a78207",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 400,
+        "NUM_PASOS": 800,
+        "SEMILLA": 45
+      },
+      "priority": 3,
+      "description": "Benchmark Cython - 400 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600373",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_python_5_79bbef",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 1,
+      "description": "Benchmark Python - 800 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600380",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "perf_cython_5_a340e7",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 800,
+        "NUM_PASOS": 1000,
+        "SEMILLA": 46
+      },
+      "priority": 2,
+      "description": "Benchmark Cython - 800 part\u00edculas",
+      "template_name": "performance_benchmark",
+      "created_at": "2025-07-08T14:40:25.600387",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

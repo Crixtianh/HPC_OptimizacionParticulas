@@ -1,0 +1,23 @@
+{
+  "workers": [
+    {
+      "id": "worker-01",
+      "ip": "172.20.10.3",
+      "port": 8080,
+      "status": "unknown",
+      "last_ping": null
+    },
+    {
+      "id": "worker-02",
+      "ip": "172.20.10.4",
+      "port": 8080,
+      "status": "unknown",
+      "last_ping": null
+    }
+  ],
+  "orchestrator": {
+    "timeout": 5,
+    "retry_attempts": 3,
+    "max_concurrent_tasks": 10
+  }
+}

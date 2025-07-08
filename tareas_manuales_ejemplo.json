@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "creation_date": "2025-07-08",
+    "description": "Conjunto de tareas de ejemplo para ingreso manual al sistema de simulación de partículas",
+    "total_tasks": 10,
+    "created_by": "Manual Task Generator",
+    "version": "1.0"
+  },
+  "tasks": [
+    {
+      "task_id": "manual_001",
+      "algorithm": "python",
+      "parameters": {
+        "num_particles": 50,
+        "num_steps": 300,
+        "seed": 123
+      },
+      "priority": "high",
+      "description": "Simulación pequeña Python - 50 partículas"
+    },
+    {
+      "task_id": "manual_002",
+      "algorithm": "cython",
+      "parameters": {
+        "num_particles": 100,
+        "num_steps": 500,
+        "seed": 456
+      },
+      "priority": "medium",
+      "description": "Simulación media Cython - 100 partículas"
+    },
+    {
+      "task_id": "manual_003",
+      "algorithm": "python",
+      "parameters": {
+        "num_particles": 200,
+        "num_steps": 800,
+        "seed": 789
+      },
+      "priority": "low",
+      "description": "Simulación grande Python - 200 partículas"
+    },
+    {
+      "task_id": "manual_004",
+      "algorithm": "cython",
+      "parameters": {
+        "num_particles": 150,
+        "num_steps": 600,
+        "seed": 101
+      },
+      "priority": "high",
+      "description": "Simulación Cython optimizada - 150 partículas"
+    },
+    {
+      "task_id": "manual_005",
+      "algorithm": "python",
+      "parameters": {
+        "num_particles": 75,
+        "num_steps": 400,
+        "seed": 202
+      },
+      "priority": "medium",
+      "description": "Simulación de prueba Python - 75 partículas"
+    },
+    {
+      "task_id": "manual_006",
+      "algorithm": "cython",
+      "parameters": {
+        "num_particles": 300,
+        "num_steps": 1000,
+        "seed": 303
+      },
+      "priority": "low",
+      "description": "Simulación intensiva Cython - 300 partículas"
+    },
+    {
+      "task_id": "manual_007",
+      "algorithm": "python",
+      "parameters": {
+        "num_particles": 25,
+        "num_steps": 200,
+        "seed": 404
+      },
+      "priority": "high",
+      "description": "Simulación rápida Python - 25 partículas"
+    },
+    {
+      "task_id": "manual_008",
+      "algorithm": "cython",
+      "parameters": {
+        "num_particles": 80,
+        "num_steps": 350,
+        "seed": 505
+      },
+      "priority": "medium",
+      "description": "Simulación equilibrada Cython - 80 partículas"
+    },
+    {
+      "task_id": "manual_009",
+      "algorithm": "python",
+      "parameters": {
+        "num_particles": 120,
+        "num_steps": 700,
+        "seed": 606
+      },
+      "priority": "low",
+      "description": "Simulación extendida Python - 120 partículas"
+    },
+    {
+      "task_id": "manual_010",
+      "algorithm": "cython",
+      "parameters": {
+        "num_particles": 250,
+        "num_steps": 900,
+        "seed": 707
+      },
+      "priority": "high",
+      "description": "Simulación avanzada Cython - 250 partículas"
+    }
+  ]
+}

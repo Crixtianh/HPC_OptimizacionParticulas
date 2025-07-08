@@ -1,0 +1,28 @@
+FROM python:3.9-slim
+
+# Instalar Docker CLI para ejecutar containers
+RUN apt-get update && apt-get install -y \
+    docker.io \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Instalar dependencias del worker
+COPY requirements_worker.txt .
+RUN pip install --no-cache-dir -r requirements_worker.txt
+
+# Copiar worker service
+COPY worker_service.py .
+
+# Exponer puerto
+EXPOSE 8080
+
+# Variable de entorno para identificar worker
+ENV WORKER_ID=worker-unknown
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8080/health || exit 1
+
+CMD ["python", "worker_service.py"]

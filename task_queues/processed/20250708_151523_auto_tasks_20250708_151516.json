@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-07-08T15:15:16.552699",
+  "task_count": 2,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "test_basic_python_11777b87",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 92,
+        "NUM_PASOS": 459,
+        "SEMILLA": 5856
+      },
+      "priority": 3,
+      "description": "Prueba b\u00e1sica Python",
+      "template_name": "test_basic_python",
+      "created_at": "2025-07-08T15:15:16.552616",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "test_medium_load_f90d94fd",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 254,
+        "NUM_PASOS": 760,
+        "SEMILLA": 839
+      },
+      "priority": 2,
+      "description": "Prueba carga media",
+      "template_name": "test_medium_load",
+      "created_at": "2025-07-08T15:15:16.552652",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}

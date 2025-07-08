@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-07-08T14:53:40.742251",
+  "task_count": 2,
+  "source": "auto_generator",
+  "tasks": [
+    {
+      "task_id": "stress_test_e6ab336c",
+      "algorithm": "benchmark.py",
+      "parameters": {
+        "NUM_PARTICULAS": 1006,
+        "NUM_PASOS": 1495,
+        "SEMILLA": 202
+      },
+      "priority": 1,
+      "description": "Prueba de estr\u00e9s",
+      "template_name": "stress_test",
+      "created_at": "2025-07-08T14:53:40.742177",
+      "status": "pending",
+      "source": "auto_generator"
+    },
+    {
+      "task_id": "performance_comparison_7a6bf3ab",
+      "algorithm": "benchmark_cython.py",
+      "parameters": {
+        "NUM_PARTICULAS": 310,
+        "NUM_PASOS": 783,
+        "SEMILLA": 2013
+      },
+      "priority": 6,
+      "description": "Comparaci\u00f3n de rendimiento",
+      "template_name": "performance_comparison",
+      "created_at": "2025-07-08T14:53:40.742209",
+      "status": "pending",
+      "source": "auto_generator"
+    }
+  ]
+}
