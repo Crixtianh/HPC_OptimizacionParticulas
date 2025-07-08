@@ -1,17 +1,64 @@
 import numpy as np
 import time
 import engine_cython
+import sys
 
-NUM_PARTICULAS = 100
-ANCHO_MUNDO = 800.0
-ALTO_MUNDO = 600.0
-RADIO_PARTICULA = 5.0
-DT = 0.1
-NUM_PASOS = 1000
-VELOCIDAD_INICIAL_MAX = 20.0
-COEF_RESTITUCION_PARED = 0.8
-COEF_RESTITUCION_PARTICULA = 0.9
-SEMILLA = 42
+# Valores por defecto
+DEFAULT_NUM_PARTICULAS = 100
+DEFAULT_ANCHO_MUNDO = 800.0
+DEFAULT_ALTO_MUNDO = 600.0
+DEFAULT_RADIO_PARTICULA = 5.0
+DEFAULT_DT = 0.1
+DEFAULT_NUM_PASOS = 1000
+DEFAULT_VELOCIDAD_INICIAL_MAX = 20.0
+DEFAULT_COEF_RESTITUCION_PARED = 0.8
+DEFAULT_COEF_RESTITUCION_PARTICULA = 0.9
+DEFAULT_SEMILLA = 42
+
+# Variables globales que se configurarán desde argumentos
+NUM_PARTICULAS = DEFAULT_NUM_PARTICULAS
+ANCHO_MUNDO = DEFAULT_ANCHO_MUNDO
+ALTO_MUNDO = DEFAULT_ALTO_MUNDO
+RADIO_PARTICULA = DEFAULT_RADIO_PARTICULA
+DT = DEFAULT_DT
+NUM_PASOS = DEFAULT_NUM_PASOS
+VELOCIDAD_INICIAL_MAX = DEFAULT_VELOCIDAD_INICIAL_MAX
+COEF_RESTITUCION_PARED = DEFAULT_COEF_RESTITUCION_PARED
+COEF_RESTITUCION_PARTICULA = DEFAULT_COEF_RESTITUCION_PARTICULA
+SEMILLA = DEFAULT_SEMILLA
+
+def parse_arguments():
+    """Parsea los argumentos de línea de comandos"""
+    global NUM_PARTICULAS, NUM_PASOS, SEMILLA
+    
+    if len(sys.argv) == 1:
+        print("Usando valores por defecto.")
+        print(f"Uso: python {sys.argv[0]} <NUM_PARTICULAS> <NUM_PASOS> <SEMILLA>")
+        print(f"Ejemplo: python {sys.argv[0]} 100 1000 46")
+        print(f"Valores actuales: NUM_PARTICULAS={NUM_PARTICULAS}, NUM_PASOS={NUM_PASOS}, SEMILLA={SEMILLA}")
+        return
+    
+    if len(sys.argv) != 4:
+        print("Error: Se requieren exactamente 3 argumentos.")
+        print(f"Uso: python {sys.argv[0]} <NUM_PARTICULAS> <NUM_PASOS> <SEMILLA>")
+        print(f"Ejemplo: python {sys.argv[0]} 100 1000 46")
+        sys.exit(1)
+    
+    try:
+        NUM_PARTICULAS = int(sys.argv[1])
+        NUM_PASOS = int(sys.argv[2])
+        SEMILLA = int(sys.argv[3])
+        
+        if NUM_PARTICULAS <= 0 or NUM_PASOS <= 0:
+            raise ValueError("NUM_PARTICULAS y NUM_PASOS deben ser positivos")
+            
+        print(f"Parámetros configurados: NUM_PARTICULAS={NUM_PARTICULAS}, NUM_PASOS={NUM_PASOS}, SEMILLA={SEMILLA}")
+        
+    except ValueError as e:
+        print(f"Error en los argumentos: {e}")
+        print(f"Uso: python {sys.argv[0]} <NUM_PARTICULAS> <NUM_PASOS> <SEMILLA>")
+        print("Todos los argumentos deben ser números enteros positivos.")
+        sys.exit(1)
 
 def run_simulation_cython():
     print("Iniciando benchmark con Cython")
@@ -72,4 +119,5 @@ def run_simulation_cython():
     print("-" * 30)
 
 if __name__ == "__main__":
+    parse_arguments()
     run_simulation_cython()
